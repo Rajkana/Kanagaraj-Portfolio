@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  serif;
+    margin:0;
+   
+   
+}
+.col-2{
+    background-color:rgba(0, 0, 0, 0.903);
+    border-right: 2px solid rgb(255, 255, 255);
+    /* background-color:rgba(55, 54, 54, 0.903); */
+}
+.col-10{
+    background-color: rgb(0, 0, 0);
+  
+    /* background-color:rgba(246, 243, 243, 0.903); */
+}
+.profile-photo{
+    display:grid;
+    justify-content: center;
+    position: fixed;
+    margin-top:120px;
+    
+}
+
+.profile-photo img{
+    margin-top:600px;
+    width:200px;
+    height:200px;
+    border-radius: 100px;;
+}
+.navbar-light{
+    margin:0;
+}
+.navbar {
+    /* position: relative; */
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* padding: 0.5rem 1rem; */
+}
+.navbar-nav{
+    margin-top:30px;
+    list-style-type: none;
+    display:block;
+    text-align: center;
+  
+}
+.nav-item{
+    padding-top:15px;
+    color:black;
+}
+
+.navbar-collapse{
+    display:grid;
+    justify-content: center;
+    padding:0px;
+}
+
+h1{
+    color:white;
+    margin-top:30px;
+    text-align: center; 
+    font-size:44px;
+}
+a{
+    font-size:20px;
+    color:rgb(237, 237, 243);
+  
+    
+}
+a:hover{
+   color:rgb(3, 250, 65);
+   text-decoration: none;
+}
+
+.aboutme{
+    float:right;
+    width:100%;
+    display:grid;
+    justify-content: space-around;
+    
+}
+
+.name h1, .name h5, .name h3{
+    text-align: center;
+    padding:10px;
+    color:white;
+    
+}
+
+.profile-photo-main{
+    display:grid;
+    position: relative;
+    justify-content: space-around;
+
+}
+.profile-photo-main img{
+    width:300px;
+    height:300px;
+    display:grid;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 50%;
+
+
+}
+.linkfor{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+
+.aboutmetext{
+    
+    padding:50px;
+    display: grid;
+   width:100%;
+   background-color:rgb(51, 50, 50);
+   border-radius: 70px;;
+   color:white;
+   border: 5px solid white;
+}
+
+.aboutmetext h2{
+    margin-top:20px;
+   
+    padding-left:20px;
+}
+.aboutmetext p{
+    padding:20px;
+    line-height: 30px;
+text-align: justify;
+}
+.background-grey{
+    margin-top:50px;
+    padding:50px;
+   background-color:rgb(51,50,50);
+   border-radius: 70px;;
+   color:white;
+   border: 5px solid white;
+}
+.backgnd-black{
+    margin:20px;
+    padding:20px;
+   background-color:rgb(5, 5, 5);
+   color:white;
+  border: 1px solid white;
+  line-height: 30px;
+}
+.head-date{
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+
+.work-exp-data{
+    justify-content: space-around;
+}
+
+.backgnd-grey{
+    margin-top:50px;
+    padding:50px;
+   background-color:rgb(51,50,50);
+   border-radius: 70px;;
+   color:white;
+   border: 5px solid white;
+}
+
+.backgndblack{
+    margin:20px;
+    padding:20px;
+   background-color:rgb(5, 5, 5);
+   color:white;
+  border: 1px solid white;
+  line-height: 30px;
+
+}
+
+
+.techskills h2, .softskills h2 {
+   text-align: center;
+    
+}
+.backgndblack li, .softskills li {  
+      list-style-position: inside;
+      position: relative;   
+       }
+  
+
+ .project-link{
+   
+   text-align: center;
+  
+    
+     }
+     .project-link a{
+        padding: 20px;
+         text-decoration-line: underline;
+         display:inline-block;
+         text-decoration-color:chartreuse;
+       
+     }
+     h5{
+         padding-bottom: 10px;;
+     }
+     
+     .footer{
+       padding-top: 100px;
+       margin-top: 50px;;
+        border-top: 2px solid white;
+         color:white;
+        
+       
+         
+     }
+     .footer p{
+        
+    
+        text-align: center;
+      
+     }
