@@ -12,6 +12,7 @@ body{
     border-right: 2px solid rgb(255, 255, 255);
     /* background-color:rgba(55, 54, 54, 0.903); */
 }
+
 .col-10{
     background-color: rgb(0, 0, 0);
   
@@ -121,6 +122,31 @@ a:hover{
     padding-left: 30px;
 }
 
+.logolink{
+    padding-top:100px;
+    padding-left: 20px;
+   
+}
+.work-exp-pic{
+    padding-top:100px;
+    justify-content: center;
+    
+}
+.email{
+    text-decoration: underline;
+    
+}
+.email:hover{
+    text-decoration: underline;
+    text-decoration-color:chartreuse;
+
+    
+}
+.work-exp{
+    padding-top:50px;
+    padding-left: 30px;
+    justify-content:center;
+}
 
 
 .aboutmetext{
@@ -190,7 +216,11 @@ text-align: justify;
   line-height: 30px;
 
 }
-
+.exp{
+    width:100px;
+    height:100px;
+    justify-content:space-around ;
+}
 
 .techskills h2, .softskills h2 {
    text-align: center;
@@ -203,12 +233,11 @@ text-align: justify;
   
 
  .project-link{
-   
-   text-align: center;
+    display: flex;
+   justify-content: space-around;
   
-    
      }
-     .project-link a{
+     .project-link  li a{
         padding: 20px;
          text-decoration-line: underline;
          display:inline-block;
